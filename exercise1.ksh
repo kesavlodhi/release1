@@ -16,7 +16,8 @@ message="auto-commit from $USER@$(hostname -s) on $(date)"
 GIT=`which git`
 REPO_DIR=/mnt/d/Code_clone/release1
 cd ${REPO_DIR}
-GITHUB_REPOSITORY= master
+LOCAL_REPOSITORY=new-feature
+GITHUB_REPOSITORY=master
 
 #To add, commit and push to code to the master repository
 ${GIT} checkout $GITHUB_REPOSITORY
