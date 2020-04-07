@@ -1,1 +1,2 @@
-this is line one in b file
+this is line one in b.txt file
+this is line two in b.txt file

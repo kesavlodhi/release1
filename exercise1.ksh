@@ -14,7 +14,7 @@
 set -o xtrace
 message="auto-commit from $USER@$(hostname -s) on $(date)"
 GIT=`which git`
-REPO_DIR=/mnt/d/Code_clone/release1
+REPO_DIR=/mnt/d/Code_clone/release2
 cd ${REPO_DIR}
 LOCAL_REPOSITORY=new-feature
 GITHUB_REPOSITORY=master
