@@ -11,7 +11,7 @@
 #       Change History :                                                      #
 ###############################################################################
 #setting variables
-set -x
+set -o xtrace
 message="auto-commit from $USER@$(hostname -s) on $(date)"
 GIT=`which git`
 REPO_DIR=/mnt/d/Code_clone/release1
@@ -22,5 +22,5 @@ GITHUB_REPOSITORY= master
 ${GIT} checkout $GITHUB_REPOSITORY
 ${GIT} add --all .
 ${GIT} commit -m "$message"
-${GIT} push
+#${GIT} push
 
