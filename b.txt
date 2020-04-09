@@ -5,3 +5,4 @@ this is line fourth in b.txt file
 test
 test1
 test2
+test3
