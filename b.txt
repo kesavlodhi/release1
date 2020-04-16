@@ -3,3 +3,4 @@ this is line two in b.txt file
 this is line third in b.txt file
 this is line fourth in b.txt file
 this is line fourth in b.txt file
+this is line six in b.txt file
